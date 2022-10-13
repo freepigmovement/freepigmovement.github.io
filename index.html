@@ -17,136 +17,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet" />
 
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
     <!-- title icon -->
     <link rel="icon" type="image/x-icon" href="/img/icon.png">
     <title>Freepig movement Surfboard</title>
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <!-- <img src="img/brand.png" alt="Bootstrap" width="30" /> -->
-        <a class="navbar-brand" href="index.html">FREEPIG MOVEMENT</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav-pc navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active mx-2" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active mx-2" href="#" role="button" data-bs-toggle="dropdown"> SURFBOARD </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#beginnerModal">BEGINNER</a></li>
-                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#intermediateModal">INTERMEDIATE</a></li>
-                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#performanceModal">PERFORMANCE</a></li>
-                <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#retroModal">RETRO</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2" href="custom.html">CUSTOM</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"> ACCESSORIES </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="deck pad.html">DECK PAD</a></li>
-                <li><a class="dropdown-item" href="under development.html">LEASH</a></li>
-                <li><a class="dropdown-item" href="fins.html">FINS</a></li>
-                <li><a class="dropdown-item" href="board bag.html">BOARD BAG</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-2" href="volume calculator.html">VOLUME CALCULATOR</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
-                <li><a class="dropdown-item" href="dealers.html">DEALERS</a></li>
-                <li><a class="dropdown-item" href="under development.html">TEAM</a></li>
-                <li><a class="dropdown-item" href="under development.html">FACTORY</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown">OTHERS </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="spray tint.html">SPRAY TINT</a></li>
-                <li><a class="dropdown-item" href="under development.html">WAREHOUSE</a></li>
-                <li><a class="dropdown-item" href="under development.html">SURFSCHOOL</a></li>
-                <li><a class="dropdown-item" href="galery.html">GALERY</a></li>
-                <li><a class="dropdown-item" href="under development.html">DING REPAIR</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FREEPIG MOVEMENT</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul id="ul-responsive" class="nav-mobile navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"> SURFBOARD </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#beginnerModal">BEGINNER</a></li>
-                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#intermediateModal">INTERMEDIATE</a></li>
-                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#performanceModal">PERFORMANCE</a></li>
-                  <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#retroModal">RETRO</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="custom.html">CUSTOM</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> ACCESSORIES </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="deck pad.html">DECK PAD</a></li>
-                  <li><a class="dropdown-item" href="under development.html">LEASH</a></li>
-                  <li><a class="dropdown-item" href="fins.html">FINS</a></li>
-                  <li><a class="dropdown-item" href="board bag.html">BOARD BAG</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="volume calculator.html">VOLUME CALCULATOR</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
-                  <li><a class="dropdown-item" href="dealers.html">DEALERS</a></li>
-                  <li><a class="dropdown-item" href="under development.html">TEAM</a></li>
-                  <li><a class="dropdown-item" href="under development.html">FACTORY</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">OTHERS </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="spray tint.html">SPRAY TINT</a></li>
-                  <li><a class="dropdown-item" href="under development.html">WAREHOUSE</a></li>
-                  <li><a class="dropdown-item" href="under development.html">SURFSCHOOL</a></li>
-                  <li><a class="dropdown-item" href="galery.html">GALERY</a></li>
-                  <li><a class="dropdown-item" href="under development.html">DING REPAIR</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
     <br /><br />
-    <div class="d-flex justify-content-center" style="background-color: black">
+    <!-- <div class="d-flex justify-content-center" style="background-color: black">
       <img width="12%" src="img/FREE MOVEMENT WHITE.jpg" class="justify-content-center pt-2 img-logo" alt="logo" />
-    </div>
+    </div> -->
     <style> 
+    @media screen and (min-width:501px){
+      .img-index{
+      width: 150px;
+    }
+    }
     @media screen and (max-width: 500px) {
     .img-logo{
       width: 20%;
     }
+   
     }
     </style>
     <div class="container">
@@ -155,102 +50,174 @@
     </div>
 
     <!-- MAIN -->
-    <section>
-      <div class="mx-auto container justify-content-center">
-        <!-- ROW 1 -->
-        <div class="row justify-content-center">
-          <div class="col-xs-6 col-sm-3 col-lg-3 m-2 menu-card"    >
-            <a href="" data-bs-toggle="modal" data-bs-target="#beginnerModal" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/Malibu.jpg" class="card-img-top " alt="beginner" />
-              <div class="card-body">
-                <h4 class="card-text text-center">BEGINNER <br><br></h4>
-              </div>
-            </a>
+    <!-- START MENU -->
+   <section>
+    <div class="container">
+      <div class="row">
+        <div data-bs-toggle="modal" data-bs-target="#surfboardModal" class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
           </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="" data-bs-toggle="modal" data-bs-target="#intermediateModal" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/DoubleHook.jpg" class="card-img-top " alt="intermediate" />
-              <div class="card-body">
-                <h4 class="card-text text-center">INTERMEDIATE <br><br></h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="" data-bs-toggle="modal" data-bs-target="#performanceModal" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/Claim.jpg" class="card-img-top" alt="performance" />
-              <div class="card-body">
-                <h4 class="card-text text-center">PERFORMANCE <br><br></h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="retro.html" data-bs-toggle="modal" data-bs-target="#retroModal" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/Twin.jpg" class="card-img-top" alt="retro" />
-              <div class="card-body">
-                <h4 class="card-text text-center">RETRO/ <br> FISH </h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-3 m-2 menu-card" >
-            <a href="retro.html" data-bs-toggle="modal" data-bs-target="#longboard-malibuModal" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/Twin.jpg" class="card-img-top" alt="retro" />
-              <div class="card-body">
-                <h4 class="card-text text-center">LONGBOARD/ <br> MALIBU</h4>
-              </div>
-            </a>
-          </div>
-        <!-- </div> -->
-<!-- ROW 2 -->
-        <!-- <div class="row justify-content-center"> -->
-          <div class="col-xs-6 col-sm-3 col-lg-3 m-2 menu-card" >
-            <a href="spray tint.html" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/spray-tint.png" class="card-img-top" alt="spray-tint" />
-              <div class="card-body">
-                <h4 class="card-text text-center">  SPRAY-TINT <br><br> </h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="under development.html" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/warehouse.png" class="card-img-top" alt="warehouse" />
-              <div class="card-body">
-                <h4 class="card-text text-center">WARE HOUSE <br><br></h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="under development.html" data-bs-toggle="modal" data-bs-target="#teamModal"  class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/team.png" class="card-img-top " alt="team" />
-              <div class="card-body">
-                <h4 class="card-text text-center">TEAM <br><br></h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-2 m-2 menu-card" >
-            <a href="under development.html" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/repair.png" class="card-img-top " alt="repair" />
-              <div class="card-body">
-                <h4 class="card-text text-center">REPAIR <br><br></h4>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-lg-3 m-2 menu-card" >
-            <a href="dealers.html" class="card text-decoration-none text-dark">
-              <img src="img/thumbnail/contact.png" class="card-img-top " alt="contact" />
-              <div class="card-body">
-                <h4 class="card-text text-center">CONTACT <br><br></h4>
-              </div>
-            </a>
-          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Surfboard</h3>
         </div>
-        <!-- </div> -->
-        <!-- ROW 3 -->
-        <div class="row justify-content-center">
-      
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Accessories</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Custom</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Team</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Volume calculator</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Surfschool</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Warehouse</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Ding Repair</h3>
+        </div>     <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Galery</h3>
+        </div>     <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Spray-tint</h3>
+        </div>     <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Factory</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Contact</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">Others</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fs-6 fw-lighter">OTHERS</h3>
+        </div>
+        <div class="col-4 col-md-3 my-3" >
+          <div class="d-flex justify-content-center">
+            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+          </div>
+          <h3 class="text-center text-white fw-lighter fs-6">OTHERS</h3>
         </div>
       </div>
-    </section>
-      <!-- LONGBOARD/MALIBU MODAL -->
+    </div>
+   </section>
+   <!-- START MENU END -->
+    <!-- SURFBOARD MODAL -->
+    <div class="modal fade" id="surfboardModal" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title " id="exampleModalLabel">SURFBOARD</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#newReleaseModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/Funboard.jpg" class="card-img-top " alt="funboard" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">NEW RELEASE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#teamRiderModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">TEAM RIDER</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#performanceModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">PERFORMANCE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#hybrid/fishyModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">HYBRID/FISHY</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#stepDown/GrovelerModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">STEP DOWN/GROVELER</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#longboardModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">LONGBOARD</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 my-1 modal-card" >
+                <a href="" data-bs-toggle="modal" data-bs-target="#stepUpModal" class="card text-decoration-none text-dark">
+                  <img src="img/thumbnail/HorseRace.jpg" class="card-img-top " alt="horserace" />
+                  <div class="card-body">
+                    <h3 class="card-text text-center">STEP UP</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SURFBOARD MODAL END -->
+    <!-- LONGBOARD/MALIBU MODAL -->
     <div class="modal fade" id="longboard-malibuModal" tabindex="-1"  aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
@@ -293,7 +260,6 @@
           </div>
           <div class="modal-body">
             <div class="row justify-content-center">
-             
               <div class="col-xs-6 col-sm-3 my-1 modal-card" >
                 <a href="" data-bs-toggle="modal" data-bs-target="#beginnerFunboard" class="card text-decoration-none text-dark">
                   <img src="img/thumbnail/Funboard.jpg" class="card-img-top " alt="funboard" />
@@ -1848,7 +1814,7 @@
 
     <!-- FOOTER -->
       <br><br>
-    <footer class="bg-dark">
+    <!-- <footer class="bg-dark">
       <br />
       <div class="row mx-2  justify-content-between">
         <div class="col-xs-6 col-sm-3  my-2 text-white footer-content footer-content-a"  >
@@ -1887,7 +1853,7 @@
           <h5>freepigmovement@gmail.com</h5>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- SCRIPT -->
     <script src="https://kit.fontawesome.com/7b68bd8a6e.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
