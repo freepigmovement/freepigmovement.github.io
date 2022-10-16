@@ -26,27 +26,35 @@
     <title>Freepig movement Surfboard</title>
   </head>
   <body>
+    <script>
+      console.log(data-bs-target);
+    </script>
     <br /><br />
     <!-- <div class="d-flex justify-content-center" style="background-color: black">
       <img width="12%" src="img/FREE MOVEMENT WHITE.jpg" class="justify-content-center pt-2 img-logo" alt="logo" />
     </div> -->
     <style> 
-    @media screen and (min-width:501px){
+     @media only screen and (max-width: 481px) { 
+      .img-index{
+      width: 60px;
+    }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) { 
+      .img-index{
+      width: 90px;
+    }
+    }
+
+    @media only screen and (min-width: 768px)  { 
       .img-index{
       width: 150px;
     }
     *{
-      font-size: medium;
+      font-size: smaller;
     }
     }
-    @media screen and (max-width: 500px) {
-    .img-logo{
-      width: 20%;
-    }
-    .img-index{
-      width: 71px;
-    }
-    }
+ 
     </style>
     <div class="container">
       <!-- <hr /> -->
@@ -56,92 +64,87 @@
     <!-- MAIN -->
     <!-- START MENU -->
    <section>
-    <div class="container">
-      <div class="row">
+    <div class="container ">
+      <div class="row mx-1">
         <a href="" data-bs-toggle="modal" data-bs-target="#surfboardModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2 ">Surfboard</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#customModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Custom.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2 ">Custom</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#accessoriesModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Accessories.png" alt="">
           </div>
-          <h3 class="text-center text-white fs-6 fw-lighter mt-2">Accssesories</h3>
+          <h3 class="text-center text-white fs-6 fw-lighter mt-2">Accessories</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href="" data-bs-toggle="modal" data-bs-target="#teamModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Rider.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Rider</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#volumeCalculatorModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Volume Calculator.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Volume calculator</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#dingRepairModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Ding Repair.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Ding repair</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#surfschoolModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Surf School.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Surfschool</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#sprayArtModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Spray Art.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Spray Art</h3>
         </a>     
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#galeryModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Gallery.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Galery</h3>
         </a>     
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#factoryModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Factory.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Factory</h3>
         </a>     
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#dealersModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Dealers.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Dealers</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#contactModal" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/Contact.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">Contact</h3>
         </a>
-        <a href="" class="text-decoration-none text-white col-3 col-md-3 my-3" >
+        <a href=""  data-bs-toggle="modal" data-bs-target="#aboutUsModal" class="text-decoration-none text-white col-3 col-md-3 my-3" >
           <div class="d-flex justify-content-center">
             <img class="img-index" src="img/Icon Index/About Us.png" alt="">
           </div>
           <h3 class="text-center text-white fs-6 fw-lighter mt-2">About us</h3>
         </a>
-        <!-- <a href="" class="text-decoration-none text-white col-3 col-md-3 col-sm-3 my-3" >
-          <div class="d-flex justify-content-center">
-            <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
-          </div>
-          <h3 class="text-center text-white fs-6 fw-lighter">Opening hours</h3>
-        </a> -->
+        </a>
       </div>
     </div>
    </section>
@@ -158,37 +161,37 @@
             <div class="row">
               <a href="" data-bs-toggle="modal" data-bs-target="#newReleaseModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">New release</h3>
               </a>
               <a href="" data-bs-toggle="modal" data-bs-target="#performanceModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">Performance</h3>
               </a>
               <a href="" data-bs-toggle="modal" data-bs-target="#hybridFishyTintModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">Hybrid/Fishy/ <br> Tint</h3>
               </a>
               <a href="" data-bs-toggle="modal" data-bs-target="#stepDownGlovelerModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">Step down/ gloveler</h3>
               </a>
               <a href="" data-bs-toggle="modal" data-bs-target="#longboardModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">longboard</h3>
               </a>
               <a href="" data-bs-toggle="modal" data-bs-target="#stepUpModal" class="text-decoration-none text-dark col-4 col-md-3 my-3" >
                 <div class="d-flex justify-content-center">
-                  <img class="img-index" src="img/indeximag/exampleIcon.png" alt="">
+                  <img class="img-index" src="img/Icon Index/Surfboards.png" alt="">
                 </div>
                 <h3 class="text-center fs-6 fw-lighter ">Step up</h3>
               </a>
@@ -1918,12 +1921,75 @@
 
   <!-- ALL SURFBOARD END -->
 
-  <!-- TEAM MODAL -->
-  <div class="modal fade" id="teamModal" tabindex="-1"  aria-hidden="true">
+  <!-- CUSTOM MODAL -->
+  <div class="modal fade" id="customModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Custom</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+              <div class="gtco-container">
+                <h1 class="text-center ">
+                    <u class="fs-4">Build Your Custom Surfboard</u>
+                </h1><br>
+                <h4 class="text-center" >Every surfer has a different style of surfing,&nbsp;then you can make a surfboard that suits your surfing style,<br> you can contact us to make it happen.. </h4>
+                <h3 class="text-center" ></b> or send a text to our staff</h3>
+                <h3 class="text-center">
+                <a class="text-center" href="CUSTOM ORDER PAPER.pdf" download >download form</a>
+            
+                </h3>
+                <h3 class="text-center" ><a href="https://wa.me/+6281338506556" target="_blank"><b>STAFF 1</b></a>&nbsp;|&nbsp;<a href="https://wa.me/+6287839119590" target="_blank"><b>STAFF 2</b></a>&nbsp;|&nbsp;<a href="https://wa.me/+6281224222380" target="_blank"><b>STAFF 3</b></a></h3>
+            </div>
+            <h4 class="text-center">
+              See Our Custom Customers
+            </h4><br>
+            <div class="row ">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail1.png" alt="">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail2.png" alt="">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail3.png" alt="">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail4.png" alt="">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail5.png" alt="">
+                <img class="col-xs-6 col-lg-2 customerCustom" src="img/custom/thumbnail1.png" alt="">
+            <style>
+                  @media (max-width: 480px) {
+                    .customerCustom{
+                        width: 50%;
+                    }
+                  }
+            </style>
+            </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- CUSTOM MODAL END-->
+  <!-- ACCESSORIES MODAL -->
+  <div class="modal fade" id="accessoriesModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Accessories</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- ACCESSORIES MODAL END-->
+  
+
+  <!--RIDER MODAL TEAM MODAL -->
+  <div class="modal modal-sm fade" id="teamModal" tabindex="-1"  aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h2 class="modal-title " id="exampleModalLabel">TEAM</h1>
+          <h2 class="modal-title " id="exampleModalLabel">Rider</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -1932,55 +1998,55 @@
               <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">PAJAR ARIANA</h3>
+                  <h3 class="card-text text-center">I Made Pajar Ariana</h3>
                 </div>
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamAgus" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">AGUS FIRMANTO</h3>
+                  <h3 class="card-text text-center">I Nyoman Agus Firmanto</h3>
                 </div>
               </a>
             </div>  
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamAditya" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">ADITYA PUTRA</h3>
+                  <h3 class="card-text text-center">Putu Aditya Putra Somiya</h3>
                 </div>
               </a>
             </div>  
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamEka" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">EKA SURBAWA</h3>
+                  <h3 class="card-text text-center">Eka Suarbawa</h3>
                 </div>
               </a>
             </div>  
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamJuliarta" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">I KADEK JULIARTA</h3>
+                  <h3 class="card-text text-center">I Kadek Juliarta</h3>
                 </div>
               </a>
             </div>  
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamNesa" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">NESA PRASADA</h3>
+                  <h3 class="card-text text-center">I Made Nesa Prasada</h3>
                 </div>
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 my-1 modal-card" >
-              <a href="" data-bs-toggle="modal" data-bs-target="#teamPajar" class="card text-decoration-none text-dark">
+              <a href="" data-bs-toggle="modal" data-bs-target="#teamWira" class="card text-decoration-none text-dark">
                 <img src="img/team/pajar/cover.jpg" class="card-img-top " alt="funboard" />
                 <div class="card-body">
-                  <h3 class="card-text text-center">WIRA PADMA</h3>
+                  <h3 class="card-text text-center">Gede Wira Padma</h3>
                 </div>
               </a>
             </div>
@@ -1989,7 +2055,262 @@
       </div>
     </div>
   </div>
-  <!-- TEAM MODAL END-->
+  <!-- TEAM MODAL RIDER MODAL END-->
+  <!-- VOLUME CALCULATOR MODAL -->
+  <div class="modal fade" id="volumeCalculatorModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Volume Calculator</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+     
+          <div class="container calculator justify-content-center ">
+            <div id="wrap" class="px-5">
+              <div class="slider-fixed-height">
+                <h2 class="le">Length</h2>
+                <div class="cont">
+                  <h3 class="left">5'0"</h3>
+                  <h3 class="right">9'11"</h3>
+                  <h3 class="center">7'6"</h3>
+                </div>
+                <input type="range" min="0" max="59" step="1" id="firstSlider" />
+              </div>
+              <br />
+              <div class="slider-fixed-height">
+                <h2 class="le">Width</h2>
+                <div class="cont">
+                  <h3 class="left">17"</h3>
+                  <h3 class="right">24"</h3>
+                  <h3 class="center">20 ⅝"</h3>
+                </div>
+                <input type="range" min="0" max="63" step="1" id="secondSlider" />
+              </div>
+              <br />
+              <div class="slider-fixed-height">
+                <h2 class="le">Thickness</h2>
+                <div class="cont">
+                  <h3 class="left">2"</h3>
+                  <h3 class="right">4"</h3>
+                  <h3 class="center">3"</h3>
+                </div>
+                <input type="range" min="0" max="25" step="1" id="thirdSlider" />
+              </div>
+              <br />
+              <br />
+              <div>
+                <div class="cont">
+                  <div id="incont">
+                    <h4 class="left">Shortboard</h4>
+                    <h4 class="right">Funboard/Mal</h4>
+                    <input class="mb___1" type="range" min="0" max="4" step="1" id="fourthSlider" />
+                    <h4>Hybrid/Fish</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- <br /> -->
+              <hr />
+              <div class="cont">
+                <h1 id="total">50.8 LITERS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- VOLUME CALCULATOR MODAL END -->
+  <!-- DING REPAIR MODAL -->
+  <div class="modal fade" id="dingRepairModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Ding Repair</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding-left:15% ;padding-right:15%">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/under construction.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/under construction2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+            <br><br>
+           <div class="text-center">
+                <h1>This menu is under development</h1>
+             <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Back to Home</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DING REPAIR MODAL END -->
+  <!-- SURFSCHOOL MODAL -->
+  <div class="modal fade" id="surfschoolModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Surfschool</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding-left:15% ;padding-right:15%">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/under construction.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/under construction2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+            <br><br>
+           <div class="text-center">
+                <h1>This menu is under development</h1>
+             <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Back to Home</button>
+            </div>
+        </div>
+     </div>
+    </div>
+  </div>
+  <!-- SURFSCHOOL MODAL END -->
+  <!-- SPRAY ART MODAL -->
+  <div class="modal fade" id="sprayArtModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Spray Art</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SPRAY ART MODAL END -->
+  <!-- GALERY MODAL -->
+  <div class="modal fade" id="galeryModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Galery</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- GALERY MODAL END -->
+  <!-- FACTORY MODAL -->
+  <div class="modal fade" id="factoryModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Factory</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding-left:15% ;padding-right:15%">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/under construction.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/under construction2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+            <br><br>
+           <div class="text-center">
+                <h1>This menu is under development</h1>
+             <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Back to Home</button>
+            </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <!-- FACTORY MODAL END -->
+  <!-- DEALERS MODAL -->
+  <div class="modal  fade" id="dealersModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Dealers</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- <h2 class="text-center ">VISIT OUR STORE</h2> -->
+   <br>
+   <div class="container">
+    <div class="row ">
+        <div class="col-6 ">
+            <h3 class=" fw-bold">1st Store</h3>
+            <h4>Visit out head office at <br> The Pit SurfShop - Bali</h4>
+            <h6 class="fw-bold">Opening hours :</h6>
+            <h6>Monday - Friday : 09:00 - 21.00</h6>
+            <h6>Saturday and Sunday : 09:00 - 22.00</h6>
+            <a  href="https://wa.me/+6287839119590"><h5>Whatsapp</h5></a>
+            <br>
+        </div>
+        <div class="col-6 "><iframe class="w-100 h-75" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15774.93565731296!2d115.174043!3d-8.716798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1d362ac4aa28fb6!2sThe%20Pit%20Surf%20Shop!5e0!3m2!1sid!2sid!4v1665061002811!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="col-6 mt-2">
+            <h3 class=" fw-bold">2nd Store</h3>
+            <h4>Visit other store at <br> RPM Surfshop Kuta - Bali</h4>
+            <h6 class="fw-bold">Opening hours :</h6>
+            <h6>Monday - Friday : 09:00 - 21.00</h6>
+            <h6>Saturday and Sunday : 09:00 - 22.00</h6>
+            <a href="https://wa.me/+6281224222380"><h5>Whatsapp</h5></a>
+            <br>
+        </div>
+        <div class="col-6 "><iframe class="w-100 h-75" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4458.7853287854805!2d115.16972527628822!3d-8.715517155692071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3322c6c891fd323b!2sRPM%20Surf%20Shop!5e0!3m2!1sid!2sid!4v1665061753293!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+   </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <!-- DEALERS MODAL END -->
+  <!-- CONTACT MODAL -->
+  <div class="modal fade" id="contactModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">Contact</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- CONTACT MODAL END -->
+  <!-- ABOUT US MODAL -->
+  <div class="modal fade" id="aboutUsModal" aria-hidden="true"  tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalToggleLabelG45Series">About Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+       </div>
+    </div>
+  </div>
+  <!-- ABOUT US MODAL END -->
+
 <style>
   @media only screen and (max-width: 500px) {
     .team-thumbnail{
@@ -2003,7 +2324,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-3" id="exampleModalToggleLabel2">PAJAR ARIANA</h1>
+        <h1 class="modal-title fs-3" id="exampleModalToggleLabel2">I Made Pajar Ariyana</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -2093,7 +2414,7 @@
           <section class="my-2" style="width: 80px">
             <h5 class="my-0 justify-content-center d-flex">Model</h5>
             <i class="py-1 fs-4 fa-solid fa-person-snowboarding justify-content-center d-flex"></i>
-            <h5 class="justify-content-center d-flex">Micro grom</h5>
+            <h5 class="justify-content-center d-flex text-center">Micro grom</h5>
           </section>
           <section class="my-2" style="width: 80px">
             <h5 class="my-0 justify-content-center d-flex">POB</h5>
@@ -2117,48 +2438,7 @@
 </div>
 <!-- second modal team/pajar end -->
 
-    <!-- FOOTER -->
-      <br><br>
-    <!-- <footer class="bg-dark">
-      <br />
-      <div class="row mx-2  justify-content-between">
-        <div class="col-xs-6 col-sm-3  my-2 text-white footer-content footer-content-a"  >
-          <h2 class="">ABOUT</h2>
-          <h5 >
-            Freepig movement is a surfboard brand based in Bali, made with care and years of experience, making Freepig Movement a brand with satisfactory quality.
-          </h5>
-          <a href="https://www.instagram.com/freepigmovement"><i class="fa-brands fa-instagram text-white me-2"></i></a>
-          <a href="https://www.facebook.com/FreepigMovementSurfboard"><i class="fa-brands fa-facebook text-white me-2"></i></a>
-          <a href="https://twitter.com/freepigmovement"><i class="fa-brands fa-twitter text-white me-2"></i></a>
-          <a href="https://www.youtube.com/channel/UClz5MWpQuQmPsD15mBPnypA/featured?view_as=subscriber"><i class="fa-brands fa-youtube text-white me-2"></i></a>
-        </div>
-        <div class="col-xs-6 col-sm-3 my-2  text-white footer-content footer-content-a"  >
-          <h3>OPENING HOURS</h3>
-          <h5>We open 7 days a week, every day excluding major holidays. Contact us if you have any question, with our Hotline and Contact form.</h5>
-          <h5>Monday - Friday : 09:00 - 21:00</h5>
-          <h5>Saturday & sunday : 09:00 - 22:00</h5>
-        </div>
-        <div class="col-xs-6 col-sm-3 my-2  text-white footer-content footer-content-a"  >
-        <h2 class="services">SERVICES</h2> 
-          <a href="under development.html" class="text-decoration-none text-white"> <h5>Surfschool</h5></a> 
-          <a href="under development.html" class="text-decoration-none text-white"> <h5>Warehouse</h5></a> 
-          <a href="under development.html" class="text-decoration-none text-white"> <h5>Repair</h5></a> 
-          <a href="galery.html" class="text-decoration-none text-white"> <h5>galery</h5></a> 
-        </div>
-        <div class="col-xs-6 col-sm-3 my-2  text-white footer-content footer-content-b"  >
-          <h2>CONTACT US</h3>
-          <div class=" row">
-            <a class="col text-white text-decoration-none" href="https://wa.me/+6281338506556"> <h5><i class="fa-brands fa-whatsapp"></i> ADMIN 1  </h5></a>
-            <a class="col text-white text-decoration-none " href="https://wa.me/+6287839119590"> <h5><i class="fa-brands fa-whatsapp"></i> ADMIN 2  </h5></a>
-            <a class="col text-white text-decoration-none " href="https://wa.me/+6281224222380"> <h5><i class="fa-brands fa-whatsapp"></i> ADMIN 3  </h5></a>
-          </div>
-          <a class="col text-white text-decoration-none " href="dealers.html">
-            <h5>Dealers</h6>
-          </a>
-          <h5>freepigmovement@gmail.com</h5>
-        </div>
-      </div>
-    </footer> -->
+
     <!-- SCRIPT -->
     <script src="https://kit.fontawesome.com/7b68bd8a6e.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
