@@ -3,7 +3,7 @@
   font-size: small;
 }
 body {
-  background-image: url(img/bg.png);
+  /* background-image: url(img/bg.png); */
 }
 .rotate-270 {
   transform: rotate(270deg);
