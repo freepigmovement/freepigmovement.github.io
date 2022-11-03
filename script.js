@@ -2,6 +2,19 @@
 
 const arr = {
   firstSlider: [
+    { Imp: `4'0"`, Metr: 121.9 },
+    { Imp: `4'1"`, Metr: 124.5 },
+    { Imp: `4'2"`, Metr: 127 },
+    { Imp: `4'3"`, Metr: 129.5 },
+    { Imp: `4'4"`, Metr: 132 },
+    { Imp: `4'5"`, Metr: 134.6 },
+    { Imp: `4'6"`, Metr: 137.1 },
+    { Imp: `4'7"`, Metr: 139.7 },
+    { Imp: `4'8"`, Metr: 142.2 },
+    { Imp: `4'9"`, Metr: 144.7 },
+    { Imp: `4'10"`, Metr: 147.3 },
+    { Imp: `4'11"`, Metr: 149.8 },
+
     { Imp: `5'0"`, Metr: 152.4 },
     { Imp: `5'1"`, Metr: 155.0 },
     { Imp: `5'2"`, Metr: 157.5 },
@@ -14,6 +27,7 @@ const arr = {
     { Imp: `5'9"`, Metr: 175.3 },
     { Imp: `5'10"`, Metr: 178 },
     { Imp: `5'11"`, Metr: 180.5 },
+
     { Imp: `6'0"`, Metr: 183.0 },
     { Imp: `6'1"`, Metr: 185.4 },
     { Imp: `6'2"`, Metr: 188.0 },
@@ -64,6 +78,16 @@ const arr = {
     { Imp: `9'11"`, Metr: 302.2 },
   ],
   secondSlider: [
+    { Imp: `16"`, Metr: 40.6 },
+    { Imp: `16 ¼"`, Metr: 41.3 },
+    { Imp: `16 ⅜"`, Metr: 41.6 },
+    { Imp: `16 7/16"`, Metr: 41.7 },
+    { Imp: `16 ½"`, Metr: 41.9 },
+    { Imp: `16 ⅝"`, Metr: 42.2 },
+    { Imp: `16 11/16"`, Metr: 42.3 },
+    { Imp: `16 ¾"`, Metr: 42.5 },
+    { Imp: `16 ⅞"`, Metr: 42.9 },
+
     { Imp: `17"`, Metr: 43.1 },
     { Imp: `17 ¼"`, Metr: 43.8 },
     { Imp: `17 ⅜"`, Metr: 44.1 },
@@ -71,8 +95,9 @@ const arr = {
     { Imp: `17 ½"`, Metr: 44.4 },
     { Imp: `17 ⅝"`, Metr: 44.7 },
     { Imp: `17 11/16"`, Metr: 44.9 },
-    { Imp: `17 ¾""`, Metr: 45 },
-    { Imp: `17 ⅞""`, Metr: 45.4 },
+    { Imp: `17 ¾"`, Metr: 45 },
+    { Imp: `17 ⅞"`, Metr: 45.4 },
+
     { Imp: `18"`, Metr: 45.7 },
     { Imp: `18 ¼"`, Metr: 46.3 },
     { Imp: `18 ⅜"`, Metr: 46.4 },
